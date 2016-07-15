@@ -1,23 +1,192 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="home">
+<head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="override.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="main.js"></script>
+</head>
+    <!-- body style
+    <style>
+        body {
+            padding-top: 40px;
+        }
+    </style>
+    -->
+<body>
+    <nav class="navbar navbar-default-2 navbar-fixed-top" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header" style="height: 80px;border: none;">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+        </button>
+          <img src="http://www.berkeley.edu/brand/img/seals/ucbseal_139_540.png" height="60" width="60" align="top">
+          <img src="http://sisproject.berkeley.edu/sites/default/files/berkeley-sis-project-logo2.png" alt="Home">
+      </div>
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </nav>
+    
+    <!-- lower-navbar -->
+    <nav class="navbar navbar-default navbar-lower" role="navigation">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="http://sisproject.berkeley.edu/updates">Updates</a></li>
+            <li><a>|</a></li>
+            <li><a href="http://sisproject.berkeley.edu/info">Information</a></li>
+            <li><a>|</a></li>
+            <li><a href="http://sisproject.berkeley.edu/timeline">Timeline</a></li>
+            <li><a>|</a></li>
+            <li><a href="http://sisproject.berkeley.edu/team">Project Team</a></li>
+            <li><a>|</a></li>
+            <li><a href="http://sisproject.berkeley.edu/reporting">Reporting</a></li>
+            <li><a>|</a></li>
+            <li><a href="http://sisproject.berkeley.edu/team/training">Training</a></li>
+            <li><a>|</a></li>
+            <li><a href="http://sisproject.berkeley.edu/help">Service Desk</a></li>
+            <li><a>|</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://sisproject.berkeley.edu/resources">Resources</a></li>
+                <li class="divider"></li>
+              <li><a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=sis-project@berkeley.edu">Contact Us</a></li>
+                <li class="divider"></li>
+              <li><a href="http://sisproject.berkeley.edu/student-employment">Student Employment Opportunities</a></li>
+              <li class="divider"></li>
+              <li><a href="http://sisproject.berkeley.edu/known-issues">Known Issues with SIS</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Affiliation<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://sis.berkeley.edu/students">Students</a></li>
+                <li class="divider"></li>
+              <li><a href="http://sis.berkeley.edu/instructors">Faculty</a></li>
+                <li class="divider"></li>
+              <li><a href="http://sisproject.berkeley.edu/staff">Staff</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+    <!-- lower-navbar-end -->
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+    <!-- test-->
+    <div class="content-space-one">
+        <div class="text-center">
+            <h1 style="color:white;">The Student Information Systems Project</h1>
+            <div class="page-break"></div>
+            <p class="lead" style="color:white;">Supporting the transformation of the student experience</p>
+            </div>
+    </div>
+    <div class="content-block-one">
+        <p>Recognizing the needs of the campus community, UC Berkeley has made a strategic decision to replace its constellation of aging, disparate, and internally built and maintained student systems with a modern, nimble and effective vendor-supported system that will include admissions, enrollment, registration, financial aid, student accounts, and advising. The SIS Project has strong support from students, faculty, staff and campus leadership and is seen as one of the highest administrative priorities on our campus.</p>
+    </div>
+    
+    <div class="content-space-two">
+        <div class="text-center">
+        <h1 style="color:#003262;">The Case for Change</h1>
+        <div class="page-break-2"></div>
+        <p class="lead" style="color:#003262;">An inefficent system</p>
+        </div>
+    </div>
+    <div class="content-block-one">
+        <p>The current SIS is greatly hampering the ability to provide efficient service to students creating financial, registration, course planning, and advisement issues that result in unneeded expense and delayed graduation. The aging SIS system is also a pain point for the faculty who are unable to adequately manage the basic issues around course management. The current labor intensive solutions take precious time away from faculty and staff. The new SIS will be able to prompt students when they are in the “warning zone” for financial or academic issues. It will empower students to create course plans to ensure timely graduation. It will free them from the frustration of the Telebears process.
+        Faculty will be liberated from the tedious manual tasks that they are now forced to do. This new found efficiency will enable them to focus more on advisement and other student services. They will also be supplied with new information that will empower them to make informed decisions based on data.</p>
+    </div>
+    
+    <!-- Carousel -->
+    <div class="container">
+        <section>
+            <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="screenshot-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="3"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="4"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="5"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="6"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="7"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="http://sisproject.berkeley.edu/spring-2016-video">
+                        <img class="img-responsive center-block" src="http://sisproject.berkeley.edu/sites/default/files/spring-video-banner2.jpg" alt="SIS Project Video" width=80%/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="http://sisproject.berkeley.edu/goodbye-telebears">
+                        <img class="img-responsive center-block" src="http://sisproject.berkeley.edu/sites/default/files/telebears-retiring-banner2.jpg" alt="Telebears Retiring" width=80%/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="http://sisproject.berkeley.edu/The-Student-Factor">
+                        <img class="img-responsive center-block" src="http://sisproject.berkeley.edu/sites/default/files/the-student-factor-banner3.jpg" alt="The Student Factor" width=80%/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="http://sisproject.berkeley.edu/node/1035">
+                        <img class="img-responsive center-block" src="http://sisproject.berkeley.edu/sites/default/files/advisors-preview-banner2.jpg" alt="Preview of SIS" width=80%/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="http://sisproject.berkeley.edu/dailycal/jan21-2016">
+                        <img class="img-responsive center-block" src="http://sisproject.berkeley.edu/sites/default/files/dailycal-jan21-2016b.jpg" alt="SIS in the Daily Cal" width=80%/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="http://sisproject.berkeley.edu/codefest/oct15">
+                        <img class="img-responsive center-block" src="http://sisproject.berkeley.edu/sites/default/files/Code-Fest-banner.jpg" alt="SIS Team and Code Fest" width=80%/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="http://sisproject.berkeley.edu/2015/sa/state-of-the-division">
+                        <img class="img-responsive center-block" src="http://sisproject.berkeley.edu/sites/default/files/sa-state-of-division-banner2.jpg" alt="SIS Project Update" width=80%/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="http://sisproject.berkeley.edu/ten">
+                        <img class="img-responsive center-block" src="http://sisproject.berkeley.edu/sites/default/files/sis-slideshow-10transform.jpg" alt="Transformative Features of SIS" width=80%/>
+                        </a>
+                    </div>
+                </div> <!--End of inner carousel -->
+                <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div> <!-- End of carousel -->
+        </section>
+    </div>
+    
+    <footer class="footer navbar-fixed-bottom container">
+        <div class="container">
+         <div class="row">
+             <p class="col-sm-4" style="color:white;">
+                &copy; 2016 UC Regents
+              </p>
+             <ul class="col-sm-8">
+                <li class="col-sm-1" style="float:right;"><a href="https://www.facebook.com/UCBerkeley"><img src="http://www.iconsdb.com/icons/preview/white/facebook-xxl.png" height="50" width="50"></a></li>
+                <li class="col-sm-1" style="float:right;"><a href="https://twitter.com/UCBerkeley?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="http://www.iconsdb.com/icons/preview/white/twitter-xxl.png" height="50" width="50"></a></li>
+                <li class="col-sm-1" style="float:right;"><a href="https://www.instagram.com/ucberkeley/?hl=en"><img src="http://www.iconsdb.com/icons/preview/white/instagram-6-xxl.png" height="50" width="50"></a></li>
+              </ul>
+         </div>
+        </div>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+.navbar-default {
+  background-color: #003262;
+  border-color: #ffe100;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #003262;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ffffff;
+  background-color: #ffe100;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #ffe100;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  background-color: #ffe100;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #ffe100;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #ffe100;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffe100;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffe100;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+.navbar-default-2 {
+  background-color: #ffe100;
+  border-color: #003262;
+}
+
+.carousel-control.left, 
+.carousel-control.right {
+    background-image: none
+}
+
+body{
+  margin-top: 80px;
+}
+
+/* parallax */
+.content-block-one {
+  padding: 30px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #ffffff;
+}
+.content-block-one p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+    word-wrap: break-word;
+    width: 50%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-block-one > hr {
+  border-top-color: #d5d5d5;
+}
+.container .content-block-one {
+  border-radius: 6px;
+}
+.content-block-one .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .content-block-one {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .content-block-one {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .content-block-one h1,
+  .content-block-one .h1 {
+    font-size: 63px;
+  }
+}
+.content-space-one {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(https://wallpaperscraft.com/image/information_circuits_lights_neon_46418_1920x1080.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.content-space-two {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(http://dev-sis-project-web.pantheon.berkeley.edu/sites/default/files/StudentLogicalArchitectureAug2012.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.page-break {
+    width: 50%;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.page-break-2 {
+    width: 50%;
+    height: 3px;
+    background-color: #003262;
+    margin: 0 auto;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  background-color: #003262;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #ffe100;
+  }
+}
