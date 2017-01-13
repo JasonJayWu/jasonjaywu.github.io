@@ -83,19 +83,34 @@
 }
 
 body{
-  margin-top: 80px;
+  margin-top: 0px;
 }
 
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+
+.title {
+    right: 50%;
+    bottom: 75%;
+    transform: translate(50%,50%);
+    position: absolute;
+    background: rgba(000,000,000,0.7);
+    width: 300px;
+    text-align: center;
+}
 /* parallax */
 .content-block-one {
-  padding: 30px;
+  padding: 300px;
   margin-bottom: 0px;
   color: inherit;
   background-color: #ffffff;
 }
 .content-block-one p {
   margin-bottom: 15px;
-  font-size: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40pt;
   font-weight: 200;
     word-wrap: break-word;
     width: 50%;
@@ -127,22 +142,24 @@ body{
   }
 }
 .content-space-one {
-  padding: 0px;
-  margin-bottom: 0px;
+  /*padding: 0px;
+  margin-bottom: 0px;*/
+    width: 100vw;
+    height: 100vh;
   color: inherit;
-  background: url(https://wallpaperscraft.com/image/information_circuits_lights_neon_46418_1920x1080.jpg) no-repeat center center fixed; 
+  background: url(http://www.point-web.fr/upload/documents/24e2fa5570055f06f3a871c968604e35c81360d1.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  /*padding-top: 360px;
+  padding-bottom: 360px;*/
 }
 .content-space-two {
   padding: 0px;
   margin-bottom: 0px;
   color: inherit;
-  background: url(http://dev-sis-project-web.pantheon.berkeley.edu/sites/default/files/StudentLogicalArchitectureAug2012.jpg) no-repeat center center fixed; 
+  background: url(http://www.sz0931.com/data/out/19/52575836-code-wallpaper.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -151,7 +168,7 @@ body{
   padding-bottom: 100px;
 }
 .page-break {
-    width: 50%;
+    width: 65%;
     height: 3px;
     background-color: #fff;
     margin: 0 auto;
@@ -174,11 +191,11 @@ body {
 }
 .footer {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 80px;
-  background-color: #003262;
+  background-color: silver;
 }
 
 @media (max-width: 767px) {

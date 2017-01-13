@@ -8,18 +8,14 @@
     <link rel="stylesheet" href="main.css">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
-    <!-- body style
-    <style>
-        body {
-            padding-top: 40px;
-        }
-    </style>
-    -->
+
 <body>
-    <nav class="navbar navbar-default-2 navbar-fixed-top" role="navigation">
+    <!--<nav class="navbar navbar-default-2 navbar-fixed-top" role="navigation">-->
       <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header" style="height: 80px;border: none;">
+      <!--
+        <div class="navbar-header" style="height: 80px;border: none;">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
         </button>
           <img src="http://www.berkeley.edu/brand/img/seals/ucbseal_139_540.png" height="60" width="60" align="top">
@@ -31,11 +27,12 @@
           </div>
           <button type="submit" class="btn btn-default">Submit</button>
         </form>
-    </nav>
+    </nav>-->
     
     <!-- lower-navbar -->
-    <nav class="navbar navbar-default navbar-lower" role="navigation">
+    <!--<nav class="navbar navbar-default navbar-lower" role="navigation">
       <!-- Collect the nav links, forms, and other content for toggling -->
+      <!--
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
             <li><a href="http://sisproject.berkeley.edu/updates">Updates</a></li>
@@ -76,37 +73,50 @@
               <li><a href="http://sisproject.berkeley.edu/staff">Staff</a></li>
             </ul>
           </li>
-        </ul>
+        </ul> 
       </div><!-- /.navbar-collapse -->
-    </nav>
+    <!--</nav>-->
     <!-- lower-navbar-end -->
 
     <!-- test-->
     <div class="content-space-one">
-        <div class="text-center">
-            <h1 style="color:white;">The Student Information Systems Project</h1>
+        <div class="title">
+            <h1 style="color:white;">Jason Wu</h1>
             <div class="page-break"></div>
-            <p class="lead" style="color:white;">Supporting the transformation of the student experience</p>
-            </div>
+            <p class="lead" style="color:white; font-size: 30px">Software Engineer</p>
+        </div>
     </div>
+
     <div class="content-block-one">
-        <p style="font-size:15px">Recognizing the needs of the campus community, UC Berkeley has made a strategic decision to replace its constellation of aging, disparate, and internally built and maintained student systems with a modern, nimble and effective vendor-supported system that will include admissions, enrollment, registration, financial aid, student accounts, and advising. The SIS Project has strong support from students, faculty, staff and campus leadership and is seen as one of the highest administrative priorities on our campus.</p>
+        <p style="color: white; font-size:30px;"> <center>I am currently a student at UC Berkeley studying Computer Science. <br>I enjoy designing, developing, and improving systems.</center> </p>
     </div>
     
     <div class="content-space-two">
         <div class="text-center">
-        <h1 style="color:#003262;">The Case for Change</h1>
-        <div class="page-break-2"></div>
-        <p class="lead" style="color:#003262;">An inefficent system</p>
+            <h1 style="color:white; font-size: 50px">Projects</h1>
+        <!--<div class="page-break-2"></div>
+        <p class="lead" style="color:silver;">Things I've created</p>-->
         </div>
     </div>
     <div class="content-block-one">
-        <p style="font-size:15px">The current SIS is greatly hampering the ability to provide efficient service to students creating financial, registration, course planning, and advisement issues that result in unneeded expense and delayed graduation. The aging SIS system is also a pain point for the faculty who are unable to adequately manage the basic issues around course management. The current labor intensive solutions take precious time away from faculty and staff. The new SIS will be able to prompt students when they are in the “warning zone” for financial or academic issues. It will empower students to create course plans to ensure timely graduation. It will free them from the frustration of the Telebears process.
-        Faculty will be liberated from the tedious manual tasks that they are now forced to do. This new found efficiency will enable them to focus more on advisement and other student services. They will also be supplied with new information that will empower them to make informed decisions based on data.</p>
+        <div class="row">
+            <div class="col-sm-4 text-center" style="float:center;">
+                <h1 style="font-size:45px; color:#45AEA9;">Splitsies</h1>
+                <a href="https://medium.com/@joycezhou_17447/splitsies-portfolio-wrap-up-3f48ae87674b#.3ok5o9bw0" target="_blank"><img src="http://i.imgur.com/B6HWO2E.png" height="200" width="200"></a>
+            </div>
+            <div class="col-sm-4 text-center" style="float:center;">
+                <h1 style="font-size:45px; color:#DA212E;">Mosaic</h1>
+                <a href="https://github.com/Pojostick/ipsr-mosaic" target="_blank"><img src="http://i.imgur.com/vti18q9.jpg" height="200" width="200"></a>
+            </div>
+            <div class="col-sm-4 text-center" style="float:center;">
+                <h1 style="font-size:45px; color:#00ADEF;">Navi</h1>
+                <a href="navi" target="_blank"><img src="http://i.imgur.com/4OXzRfb.jpg" height="200" width="200"></a>
+            </div>
+        </div>
     </div>
     
     <!-- Carousel -->
-    <div class="container">
+    <!--<div class="container">
         <section>
             <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -137,7 +147,7 @@
                     </div>
                     <div class="item">
                         <a href="http://sisproject.berkeley.edu/node/1035">
-                        <img class="img-responsive center-block" src="http://sisproject.berkeley.edu/sites/default/files/advisors-preview-banner2.jpg" alt="Preview of SIS" width=80%/>
+                        <img class="img-responsive center-block" src="http://sisproject.berkeley.edu/sites/default/files/advisors-preview-banner2.jpg" alt="Preview of SISsoftwa" width=80%/>
                         </a>
                     </div>
                     <div class="item">
@@ -161,27 +171,33 @@
                         </a>
                     </div>
                 </div> <!--End of inner carousel -->
-                <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+                <!--<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left"></span>
                 </a>
                 <a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
             </div> <!-- End of carousel -->
-        </section>
-    </div>
+        <!--</section>
+    </div>-->
     
     <footer class="footer navbar-fixed-bottom container">
         <div class="container">
          <div class="row">
-             <p class="col-sm-4" style="color:white;">
-                &copy; 2016 UC Regents
-              </p>
-             <ul class="col-sm-8">
-                <li class="col-sm-1" style="float:right;"><a href="https://www.facebook.com/UCBerkeley"><img src="http://www.iconsdb.com/icons/preview/white/facebook-xxl.png" height="50" width="50"></a></li>
-                <li class="col-sm-1" style="float:right;"><a href="https://twitter.com/UCBerkeley?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="http://www.iconsdb.com/icons/preview/white/twitter-xxl.png" height="50" width="50"></a></li>
-                <li class="col-sm-1" style="float:right;"><a href="https://www.instagram.com/ucberkeley/?hl=en"><img src="http://www.iconsdb.com/icons/preview/white/instagram-6-xxl.png" height="50" width="50"></a></li>
-              </ul>
+             <div class="col-sm-4" style="color:white;">
+                 
+             </div>
+             <div class="col-sm-8" style="text-align:right;">
+                 <a class="col-sm-1.5" style="float:right;">
+                     <a href="mailto:jasonjaywu@berkeley.edu" target="_blank"><img src="images\email_vector.png" height="80" width="80"></a>
+                 </a>
+                <a class="col-sm-1.5" style="float:right;">
+                    <a href="https://linkedin.com/in/jasonjaywu" target="_blank"><img src="images\linkedin_vector.png" height="80" width="80"></a>
+                 </a>
+                <a class="col-sm-1.5" style="float:right;">
+                    <a href="https://github.com/jasonjaywu" target="_blank"><img src="images\github_vector.png" height="80" width="80"></a>
+                 </a>
+              </div>
          </div>
         </div>
     </footer>

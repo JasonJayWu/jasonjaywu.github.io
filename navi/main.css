@@ -1,0 +1,38 @@
+#header {
+    background-color: #00ADEF;
+    height: 35vh;
+    width: auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*body {
+    background-image:url("https://s-media-cache-ak0.pinimg.com/736x/31/4f/e0/314fe074ea1c54efc14f9df03f83a80d.jpg");
+    min-width:100%;
+    min-height:100%;
+    top:0;
+    left:0;
+}*/
+
+p {
+    color:white; font-size: 30px
+}
+
+.title {
+    color:white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.desc {
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.row {
+    margin: 40px;
+}
+
+.top5 { margin-top:20px; }
