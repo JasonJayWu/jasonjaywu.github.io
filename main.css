@@ -106,6 +106,7 @@ h1{
   margin-bottom: 0px;
   color: inherit;
   background-color: #ffffff;
+    font-size: 25px;
 }
 .content-block-one p {
   margin-bottom: 15px;
@@ -191,11 +192,11 @@ body {
 }
 .footer {
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 80px;
-  background-color: silver;
+  background-color: #06111e;
 }
 
 @media (max-width: 767px) {
