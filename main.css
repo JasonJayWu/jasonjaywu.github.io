@@ -148,7 +148,7 @@ h1{
     width: 100vw;
     height: 100vh;
   color: inherit;
-  background: url(http://www.point-web.fr/upload/documents/24e2fa5570055f06f3a871c968604e35c81360d1.jpeg) no-repeat center center fixed; 
+  background: url(/images/background.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
