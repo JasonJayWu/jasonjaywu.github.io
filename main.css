@@ -182,6 +182,24 @@ h1{
     margin: 0 auto;
 }
 
+.container{
+    bottom: 0px;
+    vertical-align: bottom;  
+    position: relative;
+    height: 100%;
+}
+
+.row {
+    bottom:0px;
+    position: relative;
+    vertical-align: bottom;
+    height: 100%;
+}
+
+.col-sm-8 {
+    top: 5px;
+}
+
 html {
   position: relative;
   min-height: 100%;
