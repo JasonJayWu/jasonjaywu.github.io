@@ -232,3 +232,11 @@ body {
     background-color: #ffe100;
   }
 }
+
+
+/* Starts here */
+img:hover {
+    webkit-filter: blur(3px);
+    filter: blur(3px)
+}
+
