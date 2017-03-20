@@ -9,6 +9,8 @@
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
 
 <body>
@@ -81,31 +83,35 @@
     <!-- test-->
     <section id="section03" class="demo">
     
-    <div class="content-space-one">
-        <div class="title">
-            <h1 style="color:white;">Jason Wu</h1>
-            <div class="page-break"></div>
-            <p class="lead" style="color:white; font-size: 30px">Software Engineer</p>
+        <div class="content-space-one">
+            <div class="title">
+                <h1 style="color:white;">Jason Wu</h1>
+                <div class="page-break"></div>
+                <h4 class="lead">Software Engineer</h4>
+            </div>
+            <a href="#first-block"><span></span></a>
         </div>
-        <a href="#first-block"><span></span></a>
-    </div>
         
     </section>
     
-    <section id="first-block">
-    <div class="content-block-one">
-        <p style="color: white; font-size:30px;"> <center>I am currently a student at UC Berkeley studying Computer Science. <br>I enjoy designing, developing, and creating software.</center> </p>
-    </div>
+    <section id="first-block" class="demo">
+        <div class="content-block-one block-one">
+            <h1 class="home">HELLO</h1>
+            <p class="text-block-one"> Student. Problem Solver. Software Engineer.<br>There are an infinite number of ways I could describe myself but at the end of the day my passion is for designing, developing, and creating software. </p>
+            <a href="#second-block"><span></span></a>
+        </div>
     </section>
     
+    <section id="second-block">
     <div class="content-space-two">
         <div class="text-center">
             <h1 style="color:white; font-size: 50px">Projects</h1>
         </div>
     </div>
-    <div class="content-block-one">
+    <div class="content-block-one block-two">
         <div class="row">
             <div class="col-sm-4 text-center" style="float:center;">
+                <span class="helper"></span>
                 <div class="hovereffect">
                     <img class="img-responsive" src="http://i.imgur.com/B6HWO2E.png" height="250" width="250" alt="">
                     <div class="overlay">
@@ -117,6 +123,7 @@
                 <a href="https://medium.com/@joycezhou_17447/splitsies-portfolio-wrap-up-3f48ae87674b#.3ok5o9bw0" target="_blank"><img src="http://i.imgur.com/B6HWO2E.png" height="200" width="200"></a>-->
             </div>
             <div class="col-sm-4 text-center" style="float:center;">
+                <span class="helper"></span>
                 <div class="hovereffect">
                     <img class="img-responsive" src="http://i.imgur.com/vti18q9.jpg" height="250" width="250" alt="">
                     <div class="overlay">
@@ -129,6 +136,7 @@
                 <a href="mosaic" target="_blank"><img src="http://i.imgur.com/vti18q9.jpg" height="200" width="200"></a>-->
             </div>
             <div class="col-sm-4 text-center" style="float:center;">
+                <span class="helper"></span>
                 <div class="hovereffect">
                     <img class="img-responsive" src="http://i.imgur.com/4OXzRfb.jpg" height="250" width="250" alt="">
                     <div class="overlay">
@@ -142,7 +150,25 @@
         </div>
     </div>
     
-    <footer class="footer navbar-fixed-bottom container">
+    <div class="footer container">
+         <div class="row">
+             <div class="col-sm-4" style="color:white;">
+                 
+             </div>
+             <div class="col-sm-8 contact" style="text-align:right;">
+                 <a class="col-sm-1.5" style="float:right;">
+                     <a href="mailto:jasonjaywu@berkeley.edu" target="_blank"><img src="images\email_vector.png" height="70" width="70"></a>
+                 </a>
+                <a class="col-sm-1.5" style="float:right;">
+                    <a href="https://linkedin.com/in/jasonjaywu" target="_blank"><img src="images\linkedin_vector.png" height="70" width="70"></a>
+                 </a>
+                <a class="col-sm-1.5" style="float:right;">
+                    <a href="https://github.com/jasonjaywu" target="_blank"><img src="images\github_vector.png" height="70" width="70"></a>
+                 </a>
+              </div>
+         </div>
+    </div>
+    <!--<footer class="footer navbar-fixed-bottom container">
         <div class="container">
          <div class="row">
              <div class="col-sm-4" style="color:white;">
@@ -161,7 +187,9 @@
               </div>
          </div>
         </div>
-    </footer>
+    </footer>-->
+    
+    </section>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
