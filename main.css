@@ -200,7 +200,7 @@ h1{
   padding: 0px;
   margin-bottom: 0px;
   color: inherit;
-  background: url(http://www.sz0931.com/data/out/19/52575836-code-wallpaper.jpg) no-repeat center center fixed; 
+  background: url(images/code.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -559,7 +559,7 @@ body {
 #second-block {
     width: 100vw;
     height: 100vh;
-    background: url(http://www.sz0931.com/data/out/19/52575836-code-wallpaper.jpg) no-repeat center center fixed; 
+    background: url(images/code.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
