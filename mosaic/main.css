@@ -1,9 +1,14 @@
 #header {
-    background-color: #af0f1f;
+    background: #af0f1f;
     height: 35vh;
     width: auto;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    background: #af0f1f; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #af0f1f, #ff751a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #af0f1f, #ff751a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #af0f1f, #ff751a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #af0f1f, #ff751a); /* Standard syntax (must be last) */
 }
 
 p {
@@ -11,14 +16,13 @@ p {
 }
 
 .title {
-    color:white;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
 .desc {
-    font-size: 20px;
+    font-size: 18px;
     width: 50%;
     margin: auto;
 }
@@ -27,6 +31,146 @@ p {
     margin: 40px;
 }
 
-.top5 { margin-top:25px; }
+.white{
+    color: white;
+}
 
-.wrap {width: 70%; margin: 0 auto;}
+.top5 {
+    margin-top:25px;
+}
+
+.bot5 {
+    margin-bottom:25px;
+}
+
+.wrap {
+    width:70%; margin:0 auto;
+}
+
+body{
+  background:#ecf0f1;
+  text-align:center;
+}
+h2{
+  position:relative;
+  margin:40px auto;
+  font-weight:bold;
+}
+.wrapper{
+  position:relative;
+  margin:40px auto;
+  border:0px solid red;
+  overflow:hidden;
+  height:500px;
+  max-width:700px;
+  border-radius:4px;
+}
+.imgList{
+  position:absolute;
+  list-style:none;
+  margin:0;
+  padding:0;
+  width:1000%;
+  text-align:center;  
+}
+li{
+  height:100px;
+  float:left;
+  display:inline-block;
+  background:rgba(255,255,4,.6);
+  height:500px;
+  width:700px;
+  }
+
+li .nr{
+  position:relative;
+  margin:0;
+  padding:0;
+  top:0%;
+  left:0%;
+  transition:transformY(-50%) transformX(-50%);
+  font-size:200px;
+  color:#fff;
+  text-shadow:2px 1px 1px #999;
+}
+
+p {
+    color: black;
+}
+
+.glyphicon-menu-left{
+  cursor:pointer;
+  position:absolute;
+  left:0;
+  top:45%;
+  border:0px solid red;
+  padding:10px;
+  background:rgba(0,0,0,.5);
+  color:#fff;
+}
+.glyphicon-menu-right{
+  cursor:pointer;
+  position:absolute;
+  top:45%;
+  right:0;
+  border:0px solid red;
+  padding:10px;
+  background:rgba(0,0,0,.5);
+  color:#fff;
+}
+
+.imgList li:nth-child(1){
+    background-image: url(../images/silver.jpg);
+}
+.imgList li:nth-child(2){
+  background-color:rgba(0,0,0,0.2);
+}
+.imgList li:nth-child(3){
+  background-color:rgba(0,0,0,0.2);
+}
+.imgList li:nth-child(4){
+  background-color:rgba(0,0,0,0.2);
+}
+
+div.transbox {
+    margin: 10px;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+#grad {
+    height: 200px;
+    background: #af0f1f; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #af0f1f, #ff6600); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #af0f1f, #ff6600); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #af0f1f, #ff6600); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #af0f1f, #ff6600); /* Standard syntax (must be last) */
+}
+
+
+/*.content:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  
+  display: block;
+  background-image: url(../images/mosaic-bg.jpeg);
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+  
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(10px);
+}
+
+.content {
+  overflow: auto;
+  position: relative;
+}*/

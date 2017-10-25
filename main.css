@@ -1,4 +1,4 @@
-.navbar-default {
+/*.navbar-default {
   background-color: #003262;
   border-color: #ffe100;
 }
@@ -81,6 +81,7 @@
 .carousel-control.right {
     background-image: none
 }
+*/
 
 body{
   margin-top: 0px;
@@ -89,6 +90,8 @@ body{
 h1{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 50px;
+    color: white;
+    text-align: center;
 }
 
 .lead {
@@ -109,25 +112,38 @@ h1{
 }
 
 .home {
-    top: 35%;
+    /*top: 35%;
     right: 50%;
-    position: absolute;
+    position: absolute;*/
     text-align: center;
 }
+
+.highlight {
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 10px;
+}
+
+.hi {
+    position: relative;
+    top: 20px;
+}
 /* parallax */
-.block-one {
-    background: url(/images/golden_gate.jpg) no-repeat center center fixed; 
+/*.block-one {
+    /*background: url(images/golden_gate.jpg) no-repeat center center fixed; 
     background-size: cover;
     width: 100vw;
     height: 100vh;
-}
+}*/
 
 .text-block-one {
-    top: 20%;
-    left: 25%;
-    position: relative;
+    /*top: 20%;
+    left: 25%;*/
+    position: absolute;
     font-family: 'Roboto Condensed' sans-serif;
     font-size: 40px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    /*text-overflow: hidden;*/
 }
 
 .block-two {
@@ -140,15 +156,15 @@ h1{
     display: inline-block;
 }
 
-.content-block-one {
+/*.content-block-one {
   padding: 300px;
   margin-bottom: 0px;
-  color: #fff; /* was inherit */
+  color: #fff; (previously inherit)
   background-color: #ffffff;
     font-size: 25px;
-}
+}*/
 .content-block-one p {
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
   font-family: 'Roboto Condensed', sans-serif;
   font-size: normal;
   font-weight: 300;
@@ -157,38 +173,45 @@ h1{
     margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
+    color: white;
 }
 .content-block-one > hr {
   border-top-color: #d5d5d5;
 }
-.container .content-block-one {
+/*.container .content-block-one {
   border-radius: 6px;
-}
-.content-block-one .container {
+}*/
+/*.content-block-one .container {
   max-width: 100%;
-}
+}*/
 @media screen and (min-width: 768px) {
-  .content-block-one {
+  /*.content-block-one {
     padding-top: 48px;
     padding-bottom: 48px;
-  }
-  .container .content-block-one {
+  }*/
+  /*.container .content-block-one {
     padding-right: 60px;
     padding-left: 60px;
-  }
+  }*/
   .content-block-one h1,
   .content-block-one .h1 {
     font-size: 200px;
-      font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
   }
 }
+
+.content-block-one {
+    width: 100vw;
+    height: 100vh;
+}
+
 .content-space-one {
   /*padding: 0px;
   margin-bottom: 0px;*/
     width: 100vw;
     height: 100vh;
   color: inherit;
-  background: url(/images/background.jpg) no-repeat center center fixed; 
+  background: url(images/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -196,7 +219,21 @@ h1{
   /*padding-top: 360px;
   padding-bottom: 360px;*/
 }
+
 .content-space-two {
+  width: 100vw;
+  height: 100vh;
+  color: inherit;
+  background: url(images/golden_gate.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content-space-three {
+    width: 100vw;
+    height: 100vh;
   padding: 0px;
   margin-bottom: 0px;
   color: inherit;
@@ -205,9 +242,6 @@ h1{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 0px; /*was 100px*/
-  padding-bottom: 100px;
-    text-align: center;
 }
 .page-break {
     width: 65%;
@@ -223,19 +257,19 @@ h1{
     margin: 0 auto;
 }
 
-.container{
+/**.container{
     bottom: 0px;
     vertical-align: bottom;  
     position: relative;
     height: 100%;
-}
+}**/
 
-.row {
+/*.row {
     bottom:0px;
     position: relative;
     vertical-align: bottom;
     height: 100%;
-}
+}*/
 
 .col-sm-8 {
     top: 5px;
@@ -433,15 +467,15 @@ body {
 .last-title {
     background-color: rgba(255,255,255,0.2);
     height: 200px;
-    width: 1%;
+    width: 15%;
     display: table-cell;
     vertical-align: middle;
 }
 
-#section03 a {
+#section-one a {
 	padding-top: 60px;
 }
-#section03 a span {
+#section-one a span {
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -452,7 +486,7 @@ body {
 	border-radius: 100%;
 	box-sizing: border-box;
 }
-#section03 a span::after {
+#section-one a span::after {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -466,7 +500,7 @@ body {
 	transform: rotate(-45deg);
 	box-sizing: border-box;
 }
-#section03 a span::before {
+#section-one a span::before {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -512,12 +546,12 @@ body {
 	}
 }
 
-#first-block a {
+#section-two a {
 	padding-top: 60px;
 }
-#first-block a span {
+#section-two a span {
 	position: absolute;
-	top: 550%;
+	top: 0;
 	left: 50%;
 	width: 46px;
 	height: 46px;
@@ -526,7 +560,7 @@ body {
 	border-radius: 100%;
 	box-sizing: border-box;
 }
-#first-block a span::after {
+#section-two a span::after {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -540,7 +574,7 @@ body {
 	transform: rotate(-45deg);
 	box-sizing: border-box;
 }
-#first-block a span::before {
+#section-two a span::before {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -556,18 +590,18 @@ body {
 	box-sizing: border-box;
 }
 
-#second-block {
+#section-three {
     width: 100vw;
     height: 100vh;
     background: url(images/code.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .demo a {
 	position: relative;
-	top: 90%;
+    top: 90%;
 	left: 50%;
 	z-index: 2;
 	display: inline-block;
