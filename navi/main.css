@@ -1,9 +1,13 @@
 #header {
-    background-color: #00ADEF;
     height: 35vh;
     width: auto;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+        background: #00ADEF; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #002266, #00ADEF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #002266, #00ADEF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #002266, #00ADEF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #002266, #00ADEF); /* Standard syntax (must be last) */
 }
 
 /*body {
@@ -26,7 +30,7 @@ p {
 }
 
 .desc {
-    font-size: 20px;
+    font-size: 18px;
     width: 50%;
     margin: auto;
 }
@@ -36,4 +40,87 @@ p {
 }
 
 .top5 { margin-top: 25px; }
+
 .top10 { margin-top: 30px; }
+
+.wrapper{
+  position:relative;
+  margin:40px auto;
+  border:0px solid red;
+  overflow:hidden;
+  height:250px;
+  max-width:980px;
+  border-radius:4px;
+}
+.imgList{
+  position:absolute;
+  list-style:none;
+  margin:0;
+  padding:0;
+  width:1000%;
+  text-align:center;  
+}
+li{
+  height:100px;
+  float:left;
+  display:inline-block;
+  background:rgba(255,255,4,.6);
+  height:250px;
+  width:980px;
+  }
+
+li .nr{
+  position:relative;
+  margin:0;
+  padding:0;
+  top:0%;
+  left:0%;
+  transition:transformY(-50%) transformX(-50%);
+  font-size:0px;
+  color:#fff;
+  text-shadow:2px 1px 1px #999;
+}
+
+p {
+    color: black;
+}
+
+.glyphicon-menu-left{
+  cursor:pointer;
+  position:absolute;
+  left:0;
+  top:45%;
+  border:0px solid red;
+  padding:10px;
+  background:rgba(0,0,0,.5);
+  color:#fff;
+}
+.glyphicon-menu-right{
+  cursor:pointer;
+  position:absolute;
+  top:45%;
+  right:0;
+  border:0px solid red;
+  padding:10px;
+  background:rgba(0,0,0,.5);
+  color:#fff;
+}
+
+.imgList li:nth-child(1){
+  background-color:rgba(0,0,0,0);
+}
+.imgList li:nth-child(2){
+  background-color:rgba(0,0,0,0);
+}
+.imgList li:nth-child(3){
+  background-color:rgba(0,0,0,0);
+}
+.imgList li:nth-child(4){
+  background-color:rgba(0,0,0,0);
+}
+
+div.transbox {
+    margin: 10px;
+    background-color: #fff;
+    opacity: 0.5;
+}
