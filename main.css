@@ -71,7 +71,7 @@ h1{
 }
 
 .content-block-three {
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(47,79,79,0.2);
     background-size: cover;
     border-radius: 50px;
     margin-top: 150px;
@@ -162,7 +162,7 @@ h1{
   padding: 0px;
   margin-bottom: 0px;
   color: inherit;
-  background: url(images/code-bg.jpg) no-repeat center center fixed; 
+  background: url(images/sticky_notes.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -203,7 +203,7 @@ body {
   /* Set the fixed height of the footer here */
   height: 80px;
   /*background-color: #06111e;*/
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(47,79,79,0.2);
 }
 
 @media (max-width: 767px) {
@@ -377,7 +377,7 @@ body {
 */
 
 .project-title {
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(47,79,79,0.2);
     height: 200px;
     display: table-cell;
     vertical-align: middle;
